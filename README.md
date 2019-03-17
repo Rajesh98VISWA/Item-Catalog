@@ -2,7 +2,7 @@
 
 # item-catalog
 
---> Item-Catalog Project , One of the project belongs to Udacity[FULL STACK WEB DEVELOPER : NANO_DEGREE]
+ > Item-Catalog Project , One of the project belongs to Udacity[FULL STACK WEB DEVELOPER : NANO_DEGREE]
 https://github.com/Rajesh98VISWA/Item-Catalog.git
 ### ANALYSIS FOR Catalog Project -:
 
@@ -10,6 +10,7 @@ https://github.com/Rajesh98VISWA/Item-Catalog.git
   <a href="https://github.com/Rajesh98VISWA/Log_Analysis"><img src="https://images.financialexpress.com/2018/01/delhi_759.jpg"
    alt="Item-Catalog-icon" width="500"></a>
   <br>
+
  -  A Reporting page that is helpful to display the individual state information Within item catalog 
  - Parent - Child information is given and modified 
  - It is modified using CRUD operation (Create, Update, Delete, Retrive)
@@ -26,27 +27,27 @@ https://github.com/Rajesh98VISWA/Item-Catalog.git
 
 ### Python files with project :
 
- -> main file - `stateflask.py` 
- -> Database file - `db_set.py`
- -> State information file - `state_info.py` 
+ - main file - `stateflask.py` 
+ - Database file - `db_set.py`
+ - State information file - `state_info.py` 
 
 ### TO RUN PYTHON FILES :
 
- -> pip install Flask 
- -> pip install SQLalchemy
- -> pip install requests
- -> pip install psycopg2
- -> pip install OAuth2client
+ - pip install Flask
+ - pip install SQLalchemy
+ - pip install requests
+ - pip install psycopg2
+ - pip install OAuth2client
 
 ### Softwares for Item-Catalog :
 
- -> (python3) - It is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.(IDLE PYTHON 3.7-32bit)
+ - (python3) - It is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.(IDLE PYTHON 3.7-32bit)
 
- -> (Git-Bash) - Git is a distributed version-control system for tracking changes in source code.
- -> (Virtual-Box) - Oracle VM VirtualBox is a free and open-source hosted hypervisor.
- -> (Vagrant) - It is an open-source softwarw product for building and maintaining portable virtual software development environmeants.
- -> (DB browser -[SQL Cipher]) - Unlike client–server database management systems, the SQLite engine has no standalone processes with which the application program communicates. 
- -> (Any Editor) - Editor used to develop project is Sublime text.
+ - (Git-Bash) - Git is a distributed version-control system for tracking changes in source code.
+ - (Virtual-Box) - Oracle VM VirtualBox is a free and open-source hosted hypervisor.
+ - (Vagrant) - It is an open-source softwarw product for building and maintaining portable virtual software development environmeants.
+ - (DB browser -[SQL Cipher]) - Unlike client–server database management systems, the SQLite engine has no standalone processes with which the application program communicates. 
+ - (Any Editor) - Editor used to develop project is Sublime text.
 
 ### Links for Different Softwares :
 
