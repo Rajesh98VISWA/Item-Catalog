@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="{{ url_for('newStateList',state_id=state_id)}}" method="POST">
+		<div class="matter">
+		 name<br><input type="text" name="name" required><br>
+            about<br><input type="text" name="about"  required><br>
+            State_capital<br><input type="text" name="state_capital" required></br>
+            State_culture<input type="text" name="state_culture" required>
+            State_population<input type="text" name="state_population" required>
+            State_language=<input type="text" name="state_language" required>
+            State_area<input type="text" name="state_area" required>
+            districts=<input type="text" name="districts" required>
+		<button type="submit">Add</button>
+	<a href="{{ url_for('showStates',country_id=state_id)}}">Cancel</a>
+</form>
+</body>
+</html>

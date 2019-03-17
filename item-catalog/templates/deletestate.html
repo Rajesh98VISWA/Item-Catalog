@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="{{url_for('deleteStateList',state_id=lists.state_id,list_id=lists.id)}}"
+method="POST">
+<button> Delete</button>
+		<a href="{{url_for('showStates',country_id=lists.state_id)}}">Cancel</a>
+	</form>
+</body>
+</html>

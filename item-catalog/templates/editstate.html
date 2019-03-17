@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="{{ url_for('editStateList', country_id=country.id,state_id=state.id)}}" method="POST">
+	<div class="matter">
+		 name<input type="text" name="name" value="{{state.name}}">
+            about<textarea name="about" rows="5" cols="100" value="{{state.about}}"></textarea>
+            State_capital<input type="text" name="state_capital" value="{{state.state_capital}}">
+            State_culture<input type="text" name="state_culture" value="{{state.state_culture}}">
+            State_population<input type="text" name="state_population" value="{{state.state_language}}">
+            State_language=<input type="text" name="state_language" value="{{state.state_language}}">
+            State_area<input type="text" name="state_area" value="{{state.state_area}}">
+            districts=<input type="text" name="districts" value="{{state.districts}}">
+		<button type="submit">Edit</button>
+		<a href="{{url_for('showStates',country.id=country.id)}}">Cancel</a>
+	</div>
+</form>
+</body>
+</html>

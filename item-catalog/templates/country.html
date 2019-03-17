@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>country</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='country.css')}}">
+</head>
+<body>
+	<form action="#" method="POST">
+	<div class="logo">
+		<img src="{{url_for('static', filename='india.jpg')}}" style="height: 150px; width: 150px";>
+	</div>
+	<div style="text-align: right;">
+		<ul>
+			{% if 'username' not in session %}
+			<button type="submit"><a href="{{url_for('showLogin')}}">Login</a></button>
+			{% else %}
+			<button type="submit"><a href="{{url_for('logout')}}">logout</a></button>
+			{% endif %}
+		</ul>
+	</div>
+	<div>
+		{% with messages = get_flashed_messages() %}
+		{% if messages %}
+
+		<ul>
+			{% for message in messages %}
+			<li><strong>{{message}}</strong></li>
+			{% endfor %}
+		</ul>
+		{% endif %}
+		{% endwith %}
+	</div>
+	<a href="{{ url_for('newCountry')}}" required>Add Country</a>
+	{% for c in country %}
+	<ul>
+			<a href="{{url_for('showStates',country_id=c.id)}}"><h4><font color="blue">{{c.name}}</font></h4></a>
+			{% if 'username' in session %}
+			<a href="{{url_for('editCountry',country_id=c.id)}}"><font color="blue"></font>edit</a>
+			<a href="{{url_for('deleteCountry',country_id=c.id)}}"><font color="blue"></font>delete</a>
+			{% endif %}
+	</ul>
+	{% endfor %}
+	<div>
+	</div>
+	</div>
+</form>
+</body>
+</html>

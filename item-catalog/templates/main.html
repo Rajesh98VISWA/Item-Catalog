@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="#" method="POST">
+	<div class="">
+
+	<ul>
+		
+			{% if 'username' in session %}
+			<a href="{{ url_for('newStateList',state_id=country.id) }}">Add State</a>
+			}
+	</ul>
+	{% endif %}
+</div>
+
+<div class="">
+	{% for i in state %}
+	<div>
+		{{i.name}}
+		<p>{{i.about}}</p>
+		<p>{{i.State_capital}}</p>
+		<p>{{i.State_culture}}</p>
+		<p>{{i.State_population}}</p>
+		<p>{{i.State_Language}}</p>
+		<p>{{i.State_area}}</p>
+		<p>{{i.districts}}</p>
+	</div>
+	{% if 'username' in session %}
+	<button><a href="{{ url_for('editStateList', country_id=country.id, b_id=i.id)}}">edit</a></button>
+	<button><a href="{{ url_for('deleteStateList', branch_id=country.id, list_id=l.id)}}">delete</a></button>
+	{% endif %}
+	{% endfor %}
+</div>
+</form>
+</body>
+</html>
