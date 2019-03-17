@@ -10,11 +10,10 @@ https://github.com/Rajesh98VISWA/Item-Catalog.git
   <a href="https://github.com/Rajesh98VISWA/Log_Analysis"><img src="https://images.financialexpress.com/2018/01/delhi_759.jpg"
    alt="Item-Catalog-icon" width="500"></a>
   <br>
-> A Reporting page that is helpful to display the individual state information
-Within item catalog 
-> Parent - Child information is given and modified 
-> It is modified using CRUD operation (Create, Update, Delete, Retrive)
-> Currently OAuth2 implemented for Google Accounts. OAuth2 provides authentication for CRUD operations. 
+ -  A Reporting page that is helpful to display the individual state information Within item catalog 
+ - Parent - Child information is given and modified 
+ - It is modified using CRUD operation (Create, Update, Delete, Retrive)
+ - Currently OAuth2 implemented for Google Accounts. OAuth2 provides authentication for CRUD operations. 
 
 ## Tools Used :
 
