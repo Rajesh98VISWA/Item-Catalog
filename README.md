@@ -39,7 +39,7 @@ https://github.com/Rajesh98VISWA/Item-Catalog.git
  - pip install psycopg2
  - pip install OAuth2client
 
-### Softwares for Item-Catalog :
+### Softwares-:
 
  - (python3) - It is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.(IDLE PYTHON 3.7-32bit)
 
@@ -51,40 +51,42 @@ https://github.com/Rajesh98VISWA/Item-Catalog.git
 
 ### Links for Different Softwares :
 
-** Python3 ** - [https://www.python.org/downloads/] 
-** Git-Bash ** - [https://git-scm.com/downloads] 
-** Virtual-Box ** - [https://www.virtualbox.org/wiki/Downloads] 
-** Vagrant ** - [https://www.vagrantup.com/downloads.html] 
-** DB browser ** - [https://sqlitebrowser.org/dl/] 
-** Sublime text ** - [https://www.sublimetext.com/3]
+* Python3 ** - [https://www.python.org/downloads/] 
+* Git-Bash ** - [https://git-scm.com/downloads] 
+* Virtual-Box ** - [https://www.virtualbox.org/wiki/Downloads] 
+* Vagrant ** - [https://www.vagrantup.com/downloads.html] 
+* DB browser ** - [https://sqlitebrowser.org/dl/] 
+* Sublime text ** - [https://www.sublimetext.com/3]
 
 #### brief on project
 
--> This project is written in python 
--> using database (can be anything either software based or written format )
--> major requirement is DB browser - SQL cipher and flask modules
--> JSON is used to for read the data given  user logins 
--> This project is developed in windows 10 os
--> using sublime text application
--> operation and server reloads and restarts are made in gitbash
+- This project is written in python 
+- using database (can be anything either software based or written format )
+- major requirement is DB browser - SQL cipher and flask modules
+- JSON is used to for read the data given  user logins 
+- This project is developed in windows 10 os
+- using sublime text application
+- operation and server reloads and restarts are made in gitbash
 
-### Process for login through Google
+### Login with Google
 
--> Open Browser and go to [console.developers.google.com](https://console.developers.google.com/)
--> Create a new project based on your UDACITY-PROJECT-NAME.
--> Then click on Credentials, to create a new credentials, and after that there wiil be a dialogue box showing.
--> Click on OAuth client ID, then you will see a option format for application type.
--> Select on `Web-application`, and then click on create button.
--> Fill the given columns with appropriate `HTTP` URL's.
--> After completion of columns with appropriate details
--> Download the `JSON` file, renamed it as `client_secrets.json`
--> After complition of this process. You will be allowed used within your project.
+- Open Browser and go to [console.developers.google.com](https://console.developers.google.com/)
+- Create a new project based on your UDACITY-PROJECT-NAME.
+- Then click on Credentials, to create a new credentials, and after that there wiil be a dialogue box showing.
+- Click on OAuth client ID, then you will see a option format for application type.
+- Select on `Web-application`, and then click on create button.
+- Fill the given columns with appropriate `HTTP` URL's.
+- After completion of columns with appropriate details
+- Download the `JSON` file, renamed it as `client_secrets.json`
+- After complition of this process. You will be allowed used within your project.
 
 ## JSON Key-Points 
 
-** localhost:8000/country/JSON
+Country catalog JSON : localhost:8000/country/JSON
 
-** localhost:8000/country/<int:country_id>/main/<int:state_id>/JSON
+Based on state id it will display the particular country state, country of particular state details JSON 
+localhost:8000/country/<int:country_id>/main/<int:state_id>/JSON
 	
-** localhost:8000/country/<int:state_id>/main/JSON
+It displays the particular state of particular state information
+localhost:8000/country/<int:state_id>/main/JSON
 
