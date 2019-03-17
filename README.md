@@ -7,7 +7,7 @@ https://github.com/Rajesh98VISWA/Item-Catalog.git
 ### ANALYSIS FOR Catalog Project -:
 
 <h1 align="center">
-  <a href="https://github.com/Rajesh98VISWA/Log_Analysis"><img src="https://images.financialexpress.com/2018/01/delhi_759.jpg"
+  <a href="https://github.com/Rajesh98VISWA/Item-Catalog"><img src="https://www.mapsofindia.com/worldmap/map-of-world.jpg"
    alt="Item-Catalog-icon" width="500"></a>
   <br>
 
